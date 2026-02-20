@@ -1,7 +1,7 @@
 # 🚀 Azure DevOps → Ubuntu CI/CD Deployment Master Guide
 
 > **"Zero deployment failures from now on!"**  
-> *Complete step-by-step checklist with copy-paste commands*
+> *Complete step-by-step checklist*
 
 ---
 
