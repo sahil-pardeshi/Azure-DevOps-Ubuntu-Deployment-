@@ -94,7 +94,7 @@ Add to your azure-pipelines.yml:
       rsync -avz $(Build.ArtifactStagingDirectory)/dist/ buildsvc@192.168.1.50:/var/www/my-app/
       sudo systemctl restart my-app.service
 ```
-###**Daily Health Check Commands**
+### **Daily Health Check Commands**
 ```
 # Service status
 sudo systemctl status my-app.service
@@ -105,10 +105,10 @@ sudo journalctl -u my-app.service -f
 # Test app is running
 curl http://192.168.1.50:3000
 ```
-###**SEQUENCE**
+### **SEQUENCE**
 👤 User → 🌐 IP → 📁 Folder → 🔑 Sudoers → ⚙️ Service → 🧪 SSH Test → ☁️ Azure → 🚀 Pipeline
 
-###**Quick Copy Reference**
+### **Quick Copy Reference**
 ```
 IP:        ip addr show | grep inet
 User:      buildsvc
