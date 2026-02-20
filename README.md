@@ -72,7 +72,7 @@ sudo -u buildsvc sudo systemctl status my-app.service
 ```
 ✅ Green = Ready for Azure | ❌ Red = Fix permissions
 
-### **Step 7: Azure DevOps Service Connection
+### **Step 7: Azure DevOps Service Connection**
 Project Settings → Service connections → New → SSH
 
 🟢 Host: 192.168.1.50          (Step 2 IP!)
